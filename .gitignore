@@ -1,0 +1,8 @@
+# Ignore Python virtual environment folder
+.venv/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore all files in the data directory
+data/*

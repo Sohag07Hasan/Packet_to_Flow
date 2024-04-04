@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "packet-to-flow-conversion"
+version = "0.1.0"
+description = ""
+authors = ["Mahibul Hasan <hyde.sohag@gmail.com>"]
+readme = "README.md"
+packages = [{include = "packet_to_flow_conversion"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyshark = "^0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
